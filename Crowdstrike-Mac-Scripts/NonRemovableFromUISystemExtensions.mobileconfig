@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>CrowdStrike - System Extension non-removable from UI</string>
+    <key>PayloadDescription</key>
+    <string>CrowdStrike - System Extension non-removable from UI</string>
+    <key>PayloadIdentifier</key>
+    <string>2B212A64-7DFD-4E69-BF3D-792477E49733</string>
+    <key>PayloadUUID</key>
+    <string>2B212A64-7DFD-4E69-BF3D-792477E49733</string>
+    <key>PayloadOrganization</key>
+    <string>CrowdStrike, Inc.</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDisplayName</key>
+            <string>CrowdStrike - System Extension non-removable from UI</string>
+            <key>PayloadDescription</key>
+            <string>CrowdStrike - System Extension non-removable from UI</string>
+            <key>PayloadIdentifier</key>
+            <string>885DBDBB-2BD8-4A03-A28D-C0619EE86678</string>
+            <key>PayloadUUID</key>
+            <string>885DBDBB-2BD8-4A03-A28D-C0619EE86678</string>
+            <key>PayloadType</key>
+            <string>com.apple.system-extension-policy</string>
+            <key>NonRemovableFromUISystemExtensions</key>
+            <dict>
+                <key>X9E956P446</key>
+                <array>
+                    <string>com.crowdstrike.falcon.Agent</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

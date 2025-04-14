@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.notificationsettings</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.company.notificationsettings</string>
+            <key>PayloadUUID</key>
+            <string>DC7947F7-0C80-4898-B843-D08DF5F6978B</string>
+            <key>PayloadDisplayName</key>
+            <string>Notification Settings</string>
+            <key>PayloadOrganization</key>
+            <string>Company Name</string>
+            <key>PayloadDescription</key>
+            <string>Configures notification preferences for applications</string>
+            <key>NotificationSettings</key>
+            <array>
+                <dict>
+                    <key>BundleIdentifier</key>
+                    <string>com.crowdstrike.falcon.UserAgent</string>
+                    <key>CriticalAlert</key>
+                    <false/>
+                    <key>AlertStyle</key>
+                    <string>none</string>
+                    <key>Badge</key>
+                    <false/>
+                    <key>Sound</key>
+                    <false/>
+                    <key>ShowInNotificationCenter</key>
+                    <false/>
+                    <key>ShowInLockScreen</key>
+                    <false/>
+                </dict>
+            </array>
+        </dict>
+    </array>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>25C99D29-4B45-4EFE-BED4-B985BA4625FC</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.company.config.notificationsettings</string>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadDisplayName</key>
+    <string>Notification Configuration</string>
+</dict>
+</plist>
