@@ -24,8 +24,7 @@
 			<key>FilterType</key>
 			<string>Plugin</string>
 			<key>AllowedURLs</key>
-    		<array>
-       			 <string>http://dweb:9090/webspace/login.html</string>
+    		
     		</array>
 			<key>Organization</key>
 			<string>CrowdStrike Inc.</string>
